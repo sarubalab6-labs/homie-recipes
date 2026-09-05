@@ -880,3 +880,56 @@ ul li a {
     color: #666;
     line-height: 1.5;
 }
+.recipe {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.recipe h1 {
+    font-size: 42px;
+    color: #4a2511;
+    margin-bottom: 25px;
+}
+
+.recipe img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.recipe h2 {
+    font-size: 28px;
+    color: #4a2511;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.recipe ul,
+.recipe ol {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    text-align: left;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.recipe a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #4a2511;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.recipe a:hover {
+    background: #7a4525;
+}
